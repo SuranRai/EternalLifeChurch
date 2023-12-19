@@ -1,0 +1,54 @@
+html, body {
+    width: auto!important;
+    overflow-x: hidden!important;
+}
+.head  {
+    text-align: center;
+    background-color:#e17945;
+    margin: 0;
+    padding-bottom:1px;
+    font-size: xx-large;
+    font-family: 'Cinzel', serif;
+}
+.title   {
+    font-size: xx-large;
+    text-decoration:wavy;
+    color: rgb(33, 33, 114);
+    background-image: url(./assets/);
+}
+body
+   {
+    background-color:rgb(228, 178, 178);
+    padding: 0;
+    margin:0;
+}
+.img    {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.textcolor  {
+    color: rgb(33, 33, 114);
+}
+.intro  {
+    color: rgb(33, 33, 114);
+}
+.subhead    {
+    font-family: 'Cinzel', serif;
+    
+}
+.carousel .item {
+    height: 200px;
+  }
+  
+  .item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 200px;
+}
+
+
+
+  
