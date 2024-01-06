@@ -1,20 +1,49 @@
-html, body {
+html {
     width: auto!important;
     overflow-x: hidden!important;
 }
+.nav-item {
+    color: rgb(224, 182, 119);
+    font-size: larger;
+    padding:0px;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.member {
+    padding-top: 20px;
+}
+    
+
+h1 {
+    padding-top: 30px;
+
+}
+
 .head  {
+    padding-top: 10px;
     text-align: center;
-    background-color:#e17945;
-    margin: 0;
-    padding-bottom:1px;
-    font-size: xx-large;
+
+    margin:0;
+   
     font-family: 'Cinzel', serif;
+    
+}
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 .title   {
+    background-color:#e17945;
+    
     font-size: xx-large;
     text-decoration:wavy;
     color: rgb(33, 33, 114);
     background-image: url(./assets/);
+   
 }
 body
    {
@@ -50,5 +79,84 @@ body
 }
 
 
+@media (max-width:320px)  {
 
+    .nav-item {
+        color: blue;
+        font-size: small;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+}
+    
+@media (min-width:320px)  {
+        .nav-item {
+            color: blue;
+            font-size: medium;
+            font-weight: bolder;
+            text-transform: uppercase;
+        }
+        
+    }
+        
+@media (min-width:481px)  {  
+
+.nav-item {
+        color: blue;
+        font-size: medium;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+}
+    
+
+
+@media (min-width:641px) {
+    .nav-item {
+        color: blue;
+        font-size: large;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+}
+
+    
+@media (min-width:961px)  {
+    .nav-item {
+        color: blue;
+        font-size: large;
+        font-weight: bolder;
+        text-transform: uppercase;
+        padding: 20px;
+    }
+}
+    
+   
+    
+@media (min-width:1025px) { 
+    .nav-item {
+        color: blue;
+        font-size:large;
+        font-weight: bolder;
+        text-transform: uppercase;
+        padding:25px;
+    }
+}
+   
+
+
+
+
+@media (min-width:1281px) {   
+    .nav-item {
+        color: blue;
+        font-size: x-large;
+        font-weight: bolder;
+        text-transform: uppercase;
+        padding:30px;
+    }
+}
+   
+    
   
