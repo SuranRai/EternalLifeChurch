@@ -1,7 +1,5 @@
-html {
-    width: auto!important;
-    overflow-x: hidden!important;
-}
+html, body {width: auto!important; overflow-x: hidden!important} 
+
 .nav-item {
     color: rgb(224, 182, 119);
     font-size: larger;
