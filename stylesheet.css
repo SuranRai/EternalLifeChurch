@@ -104,7 +104,61 @@ body
 .para {
     padding-bottom: 40px;
 }
-
+#search {
+    text-align: center;
+}
+.name {
+    color: rgb(33, 33, 114);
+}
+.song {
+    font-size: medium;
+    padding-top: 20px;
+}
+#myDIV {
+    width: 100%;
+    padding: 0px 0;
+    text-align: center;
+    margin-top: 0px;}
+.hidden {
+        display: none;
+    }
+#songs {
+     text-align: center;
+}
+.footer {
+    font-size: xx-small;
+}
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 5px;
+    color:black;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  
 
 @media (max-width:320px)  {
 
@@ -133,8 +187,32 @@ body
     .image {
         width: 100%;
     }
-
+    .song {
+        font-size:medium;
+        text-align: left;
+    }
+    .mySlides {
+        display: none;
+        padding: 15px;
+        text-align: center;
+      }
+      .text-center {
+        font-size: large;
+      }
     
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -30px;
+        padding: 5px;
+        color:black;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+}   
 }
     
 @media (min-width:320px)  {
@@ -162,8 +240,36 @@ body
             width: 100%;
             
         }
+        .song {
+            font-size:medium;
+            text-align: left;
+        }
+        .mySlides {
+            display: none;
+            padding: 25px;
+            text-align: center;
+          }
+          .text-center {
+            font-size:large;
+          }
+        
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            margin-top: -30px;
+            padding: 5px;
+            color:black;
+            font-weight: bold;
+            font-size: 15px;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+
+       
         
     }
+}
         
 @media (min-width:481px)  {  
 
@@ -191,6 +297,26 @@ body
         width: 100%;
         
     }
+    .song {
+        font-size: larger;
+    }
+    .text-center {
+        font-size: x-large;
+      }
+    
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -30px;
+        padding: 5px;
+        color:black;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+}
 }
     
 
@@ -220,7 +346,28 @@ body
         width: 100%;
         
     }
-}
+    .song {
+        font-size:22px;
+        text-align: center;
+    }
+    .text-center {
+        font-size: x-large;
+      }
+    
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -30px;
+        padding: 120px;
+        color:black;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+    }
 
     
 @media (min-width:961px)  {
@@ -249,7 +396,32 @@ body
         width: 100%;
         
     }
+.para {
+    text-align:center;
 }
+.text-center {
+    font-size: xx-large;
+  }
+.song {
+    font-size: x-large;
+    text-align: center;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 120px;
+    color:black;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+}
+
+
     
    
     
@@ -279,6 +451,23 @@ body
         width: 100%;
         
     }
+    .song {
+        font-size: x-large;
+    }
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -30px;
+        padding: 120px;
+        color:black;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      
 }
    
 
@@ -293,7 +482,28 @@ body
         text-transform: uppercase;
         padding:30px;
     }
+    .text-center {
+        font-size: xx-large;
+    }
+    .song {
+        padding-left: 0px;
+        font-size: xx-large;
+        text-align: center;
+    }
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -30px;
+        padding: 120px;
+        color:black;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+   
+
 }
    
-    
-  
