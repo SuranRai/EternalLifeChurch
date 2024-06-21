@@ -1,4 +1,5 @@
 html, body {width: auto!important; overflow-x: hidden!important} 
+min-height
 
 .nav-item {
     color: rgb(224, 182, 119);
@@ -19,12 +20,13 @@ h1 {
 }
 
 .head  {
-    padding-top: 10px;
+    padding-top: px;
     text-align: center;
 
     margin:0;
    
     font-family: 'Cinzel', serif;
+    
     
 }
 .container {
@@ -76,7 +78,7 @@ body
       min-height: 200px;
 }
 .flex-container {
-    max-width: 1000px;
+    max-width: 100%;
     margin: 0 auto;
     display: flex;
    
@@ -125,9 +127,14 @@ body
 #songs {
      text-align: center;
 }
-.footer {
-    font-size: xx-small;
+
+footer {
+    background-color:#e17945 !important;
+    min-height: 110px;
+    font: xx-small;
+    padding-top: 60px;
 }
+
 
   /* Slides */
   .mySlides {
@@ -311,6 +318,12 @@ body
     
         
     }
+    footer {
+        background-color:#e17945 !important;
+        min-height: 120px;
+        font: 100;
+        padding-top: 90px;
+    }
     .iframe_container {
         height:100%;
         width: 100%;
@@ -404,6 +417,12 @@ body
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+footer {
+    background-color:#e17945 !important;
+    min-height: 110px;
+    font: xx-small;
+    padding-top: 80px;
 }
 }
     
