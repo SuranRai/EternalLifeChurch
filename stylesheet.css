@@ -261,6 +261,12 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+footer {
+    background-color:#e17945 !important;
+    min-height: 130px;
+    font: 100;
+    padding-top: 80px;
+}
 
 }
     
@@ -322,7 +328,7 @@ footer {
         background-color:#e17945 !important;
         min-height: 120px;
         font: 100;
-        padding-top: 90px;
+        padding-top: 80px;
     }
     .iframe_container {
         height:100%;
