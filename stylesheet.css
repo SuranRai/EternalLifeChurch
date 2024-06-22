@@ -263,7 +263,7 @@ footer {
 }
 footer {
     background-color:#e17945 !important;
-    min-height: 160px;
+    min-height: 130px;
     font: 100;
     padding-top: 80px;
 }
@@ -326,7 +326,7 @@ footer {
     }
     footer {
         background-color:#e17945 !important;
-        min-height: 170px;
+        min-height: 130px;
         font: 100;
         padding-top: 80px;
     }
