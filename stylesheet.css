@@ -130,7 +130,7 @@ body
 
 footer {
     background-color:#e17945 !important;
-    min-height: 120px;
+    min-height: 130px;
     font: xx-small;
     padding-top: 60px;
 }
@@ -263,9 +263,9 @@ footer {
 }
 footer {
     background-color:#e17945 !important;
-    min-height: 130px;
+    min-height: 140px;
     font: 100;
-    padding-top: 80px;
+    padding-top: 70px;
 }
 
 }
@@ -326,9 +326,9 @@ footer {
     }
     footer {
         background-color:#e17945 !important;
-        min-height: 120px;
+        min-height: 140px;
         font: 100;
-        padding-top: 80px;
+        padding-top: 70px;
     }
     .iframe_container {
         height:100%;
