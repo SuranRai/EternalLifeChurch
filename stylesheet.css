@@ -132,7 +132,7 @@ footer {
     background-color:#e17945 !important;
     min-height: 140px;
     font: xx-small;
-    padding-top: 60px;
+    padding-top: 90px;
 }
 
 
@@ -261,12 +261,8 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-footer {
-    background-color:#e17945 !important;
-    min-height: 130px;
-    font: 100;
-    padding-top: 80px;
-}
+
+
 
 }
     
@@ -324,12 +320,7 @@ footer {
     
         
     }
-    footer {
-        background-color:#e17945 !important;
-        min-height: 130px;
-        font: 100;
-        padding-top: 80px;
-    }
+    
     .iframe_container {
         height:100%;
         width: 100%;
@@ -424,12 +415,7 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-footer {
-    background-color:#e17945 !important;
-    min-height: 130px;
-    font: xx-small;
-    padding-top: 80px;
-}
+
 }
     
 
