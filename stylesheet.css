@@ -84,6 +84,10 @@ body
    
 
 }
+.address {
+    text-decoration: none;
+
+}
 .flex-image {
     display: flex;
     width:100%;
