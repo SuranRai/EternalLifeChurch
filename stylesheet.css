@@ -132,10 +132,10 @@ body
      text-align: center;
 }
 
-footer{
+footer {
     background-color:#e17945 !important;
     min-height: 1px;
-    font: xx-small;
+    font-size: xx-small;
     padding-bottom:1px;
     text-align: center;
 }
