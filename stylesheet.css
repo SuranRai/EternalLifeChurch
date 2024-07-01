@@ -114,16 +114,29 @@ body
     text-align: center;
 }
 .name {
-    color: rgb(33, 33, 114);
+    color: #e17945;
+    text-align: left;
 }
 .song {
     font-size: medium;
     padding-top: 20px;
+    color:rgb(33, 33, 114);
+    text-align: left;
+
 }
+
+.buttons a {
+    font-size: 16px;
+  }
+  .buttons a:hover {
+    cursor:pointer; 
+    font-size: 16px;
+  }
+
 #myDIV {
     width: 100%;
     padding: 0px 0;
-    text-align: center;
+    text-align: left;
     margin-top: 0px;}
 .hidden {
         display: none;
@@ -131,6 +144,20 @@ body
 #songs {
      text-align: center;
 }
+.buttons {
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.buttons a {
+    font-size: 16px;
+    
+  }
+  .buttons a:hover {
+    cursor:pointer; 
+    font-size: 16px;
+  }
 
 footer {
     background-color:#e17945 !important;
@@ -456,7 +483,7 @@ footer {
     }
     .song {
         font-size:22px;
-        text-align: center;
+        
     }
     .text-center {
         font-size: x-large;
@@ -533,7 +560,7 @@ footer {
   }
 .song {
     font-size: x-large;
-    text-align: center;
+   
 }
 .prev, .next {
     cursor: pointer;
@@ -664,7 +691,7 @@ footer {
     .song {
         padding-left: 0px;
         font-size: xx-large;
-        text-align: center;
+      
     }
     .prev, .next {
         cursor: pointer;
