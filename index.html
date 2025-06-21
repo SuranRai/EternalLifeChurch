@@ -47,97 +47,242 @@
 <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Anonymous+Pro&family=Caveat&family=Cinzel:wght@400;900&family=Kalam:wght@700&family=Lobster&family=Lora:wght@500&family=Playfair+Display&display=swap" rel="stylesheet">
 
 <body>
-<div class="px- head">
-    <div class="title">
-      <nav class="px- py-0 navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-      
-          <div class=" navbar-collapse justify-content-md-center collapse" id="navbarsExample08">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link navbar-light" aria-current="page" style="color: rgb(33, 33, 114);" href="">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" style="color: rgb(33, 33, 114);" href="/aboutus">About us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" style="color: rgb(33, 33, 114);" href="/mission"> Mission & Vision</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" style="color: rgb(33, 33, 114);" href="/family"> Family</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" style="color: rgb(33, 33, 114);" href="/songs"> Songs</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-       <div class="text-center">
-          <h1 class="display-7 fw-bold  font-streth-expand"> ETERNAL LIFE CHURCH <br> अनन्त जीवन मण्डली</h1>
-          <img class="logo py-1 mx-auto mb" src="./images/ELC logo.png" alt="logo" width="60">
-      
-        </div>
-        
-      </div>
-      
-  </div>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    
+    .donation {
+      max-width: 800px;
+      margin: 0px auto;
+      background: #ffffff;
+      padding: 10px;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+      text-align: center;
+    }
 
-      <div class="text-center">
-            <img  class="member px-4 col-sm-12 col-md-12 col-lg-12" src="./images/IMG_9476.JPG" alt="churchmembers" width="100%" height="100%">
-          </div>
-          <div class="col-md-11 col-lg-10 col-sm-11 mx-auto ">
-            <div class="px-3 py-3 text-bg-dar h-1">
-              <div class="textcolor ">
-              <span class="text-center"></span>
-              <p class="para h-100 d-flex align-items-center justify-content-center lead fs-5">Welcome to Eternal Life Church, where our faith journey is deeply rooted in the Word of God, shaping our lives and guiding our steps. Our gatherings are marked by the presence of God, 
-                creating an atmosphere where hearts are touched, and lives are changed. ELC is the Christ-centered Nepali community church, it stands as a haven for Nepali Christians in Fort Worth.
-               Here, every individual is welcomed with open arms, and together, we strive to live out our faith in biblical way. 
-                Experience the warmth of our community, the depth of our teachings, and the joy of living a life centered on Christ. Welcome to a place where faith comes alive and eternal life is embraced.
-              </p>
-            </div>
-            </div>
-          </div>
-        </div>
+    .donation h2, h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .donate-button button {
+      background-color: #0070ba;
+      color: white;
+      border: none;
+      padding: 14px 28px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      margin-top: 20px;
+    }
+
+    .donate-button button:hover {
+      background-color: #005c99;
+    }
+
+    .qr-code {
+      margin-top: 40px;
+    }
+
+    .qr-code img {
+      width: 100px;
+      height: 100px;
+    }
+
+    .donation-head {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .donation-nav {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding-left: 0;
+    }
+
+    .nav-link img {
+      width: 30px;
+      height: 30px;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background: url('https://source.unsplash.com/1600x600/?church') no-repeat center center/cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: rgb(208, 78, 43);
+      text-align: center;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    .section {
+      padding: 3rem 2rem;
+    }
+    .section h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 1.5rem;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      background: #2c3e50;
+      color: white;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+    <section>
+    <div class="px- head">
+        <div class="ti">
+          <nav class="px- py-0 navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          
+              <div class=" navbar-collapse justify-content-md-center collapse" id="navbarsExample08">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link navbar-light" aria-current="page" style="color: rgb(33, 33, 114);" href="/index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style="color: rgb(33, 33, 114);" href="/aboutus.html">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style="color: rgb(33, 33, 114);" href="/mission.html"> Mission & Vision</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style="color: rgb(33, 33, 114);" href="/family.html"> Family</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style="color: rgb(33, 33, 114);" href="/songs.html"> Songs</a>
+                  </li>
+                </ul>
+              </div>
+              </div>
+          </nav>
             
 
-      <div class= text-center>
+          </section>
+           <div class="px- head " class="text-center">
+              <h1 class="church"> ETERNAL LIFE CHURCH <br> अनन्त जीवन मण्डली</h1>
+              <img class="logo py-0 mx-auto mb" src="./images/ELC logo.png" alt="logo" width="100">
+          
+            </div>
+
+   <section class="welcome">
+                <div class="px- head">
+                  <h3 class="elc" style="color: rgb(33, 33, 114); font-weight: bolder;">Welcome to Eternal Life Church</h3>
+                  <p class="experience" style="color: rgb(208, 78, 43); font-weight: bolder;"> Experience God's presence and love with us</p>
+                </div>
+              </section>             
+              
+               
+  <div class="text-center">
+    <img  class="member px-4 py-2 col-sm-11 col-md-11 col-lg-11" src="./pics/DSC09462 4.jpg" alt="churchmembers" width="100%" height="100%">
+  </div>
+   
+  <div class="box" class="col-md-11 col-lg-10 col-sm-11 mx-auto ">
+  <div class="px-3 para textcolor lead ">  
+
+      <p class="para h-100 d-flex align-items-center justify-content-center ">ELC is a Christ-centered Nepali
+        community church—a spiritual home for Nepali Christians in Fort Worth. Here, everyone is welcomed with open arms as we strive to live out our faith in a truly biblical way. Our faith journey is deeply rooted in the Word of God, shaping our lives and guiding our 
+        every step. Our gatherings are filled with the presence of God, creating an atmosphere where hearts are transformed and lives are renewed. 
+         Come and experience the warmth of our community, the richness of God's Word, and the joy of a life centered on Christ. Welcome to a place where faith comes alive and eternal life is celebrated.
+      </p>
+    </div>
+  </div>
+</div>
+    </div>
+
+
+<div class= text-center>
             <img  class="p-4 col-11 col-lg-11 col-md-12 text-center" src="./images/IMG_4318.jpg" alt="churchmembers" width="100%" height="100%">
           </div>
-            <div class="col-md-11 col-lg-10 col-11 mx-auto ">
+            <div  class="box para col-md-11 col-lg-10 col-11 mx-auto ">
               <div class="px-3 py-4 text-bg-dar h-1">
                 <div class="textcolor ">
                 <span class="text-center">
-               <a href="./aboutus.html" style="text-decoration: none; color: rgb(33, 33, 114);"><h4 class="subhead fw-bold fs-3"> ABOUT US</h4></span></a>
-                <p class="h-100 d-flex align-items-center justify-content-center lead fs-5">Established on February 9, 2014, by Pastor Raj Tamang and his family.
-                  Eternal Life Church is nestled in the heart of Fort Worth, Texas as a beacon of faith and cultural richness. Rooted in a desire for worship, connection, and faith growth, 
-                  the church preserves cultural ties and provides teachings based on biblical truth and faith. Actively engaged in community outreach, 
-                  the church reflects Christ's teachings through various charitable activities, embodying the Nepali spirit of compassion.</p>
+               <a href="./aboutus.html" style= "color: rgb(208, 78, 43); text-decoration: none;"><h4 class="subhead"> ABOUT US</h4></span></a>
+                <p class="para d-flex align-items-center justify-content-center lead "> We are nestled in the heart of Fort Worth, Texas as a beacon of faith and 
+                    cultural richness. Rooted in a desire for worship, connection, and faith growth, the church preserves cultural ties and provides teachings based on biblical truth
+                     and faith. Actively engaged in community outreach, the church reflects Christ's teachings through various charitable activities, embodying the Nepali spirit of compassion.</p>
               </div>
               </div>
             </div>
           </div>
-
+    
           <div class= text-center>
             <img  class=" p-4 col-11 col-lg-11 col-md-12 text-center" src="./images/IMG_4332.jpg" alt="churchmembers" width="100%" height="100%">
           </div>
          
-            <div class="col-md-11 col-lg-10 col-11 mx-auto ">
+            <div class="box" class="col-md-11 col-lg-10 col-11 mx-auto ">
               <div class="px-3 py-4 text-bg-dar h-1">
                 <div class="textcolor ">
                 <span class="text-center">
-                  <a href="./mission.html" style="text-decoration: none; color: rgb(33, 33, 114);"><h4 class="subhead fw-bold fs-3"> OUR MISSION & VISION</h4></span></a>
-                <p class="lead fs-5">Eternal Life Church's core vision is a steadfast commitment to "reach, teach, equip, and send" based on John 10:28. Join us as we seek to grow in faith, support one another, and make a positive impact in our community. <br> 
-                  <span class="fw-bold">Reaching:</span>
+                  <a href="./mission.html" style="text-decoration: none; color:  rgb(208, 78, 43);"><h4 class="subhead"> OUR MISSION & VISION</h4></span></a>
+                <p class="para lead fs-">Eternal Life Church's core vision is a steadfast commitment to "reach, teach, equip, and send" based on John 10:28. Join us as we seek to grow in faith, support one another, and make a positive impact in our community. <br> 
+                  <span style="color:  rgb(208, 78, 43);" class="fw-bold">Reaching:</span>
                   Extending Christ's love to all, the church believes every reached soul is securely held by the Good Shepherd's eternal embrace. <br>
-                  <span class="fw-bold">Teaching:</span>
+                  <span style="color:  rgb(208, 78, 43);" class="fw-bold">Teaching:</span>
                   Rooted in biblical principles, the church empowers members to live purposefully, emphasizing Christ's teachings and eternal truths.<br>
-                  <span class="fw-bold"> Equipping:</span>
+                  <span style="color:  rgb(208, 78, 43);" class="fw-bold"> Equipping:</span>
                   Dedicated to spiritual growth, the church equips members with resilient faith tools through discipleship programs and mentorship. <br>
-                  <span class="fw-bold">Sending:</span>
+                  <span style="color:  rgb(208, 78, 43);" class="fw-bold">Sending:</span>
                   With a mission-oriented spirit, the church envisions sending members as global ambassadors, spreading the transformative message of love and salvation.
 
                 </p>
@@ -148,15 +293,15 @@
 
           </div>
 
-
-          
           <div class="text-center">
-            <h2 class="subhead textcolor fw-bold fs-1"> ELC <br> <span class="lead fs-2"> we are one family in Christ</span></h2>
+            <h2 style="color:  rgb(208, 78, 43);" class="subhead textcolor"> ELC <br> <span style="color: rgb(33, 33, 114);" class="elc lead"> we are one family in Christ</span></h2>
 
           </div>
-          <div class="container px-0 col-11 col-md-8 col-lg-6">
+          <div style="padding: 10px; padding-left: 10px; padding-right: 10px;
+          border-radius: 22px;
+          box-shadow: 0 4px 16px rgba(0,0,0,0.1);" class="container px-0 col-11 col-md-8 col-lg-6">
           
-            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div style="padding: 10px; padding-left: 10px; padding-right: 10px;" id="myCarousel" class="carousel slide" data-bs-ride="carousel">
               <div id="carouselExample" class="carousel slide carousel-fade">
                 <div class="carousel-inner">
                   
@@ -556,7 +701,11 @@
                    
                       <div class=" intro col-lg-7 col-md-9 mx-auto">
                           
-                        <p class="lead fs-4">I give them eternal life, and they shall never perish; 
+                        <p style="margin: 0px auto;
+                        background: #ffffff;
+                        padding: 0px;
+                        border-radius: 12px;
+                        box-shadow: 0 4px 16px rgba(0,0,0,0.1)" class="elc lead">I give them eternal life, and they shall never perish; 
                           no one will snatch them out of my hand.<br> John 10:28</p>
   
                         </div>
@@ -564,81 +713,154 @@
                     </div>
   
               </div>
-     
 
-            <div class="text-center py-">
-              <h4 class="subhead textcolor fw-bold fs-1"> come join us <br><span class="lead  fs-4">Every Sunday 10:00 am - 12:00 pm </span></h4>
-              <a href="https://www.google.com/maps/dir/32.8748188,-97.3408544/Eternal+Life+Church/@32.7835207,-97.4086218,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x864e711698ac0627:0x71b0139677be51cb!2m2!1d-97.3092708!2d32.692277?entry=ttu" target="_blank"> <img class="p-4 col-md-10 col-lg-10" src="./images/IMG_9497.JPG"width="100%"> </a>
-              <a class="address" href="https://www.google.com/maps/dir/32.8748188,-97.3408544/Eternal+Life+Church/@32.7835207,-97.4086218,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x864e711698ac0627:0x71b0139677be51cb!2m2!1d-97.3092708!2d32.692277?entry=ttu" target="_blank">
-              <h4 class="subhead textcolor fw-bold fs-6"> 3817 Mc Clure St, Fort Worth, TX 76115</h4></a>
-            </div>
-            <div class="text-center py-5">
-              <h4 class="subhead textcolor  fs-"> stay connected with us on our socials <br></h4>
-              
-              
-            </div>
-            <div class="iframe_container">
-              <iframe width="735" height="415" src="https://www.youtube.com/embed/gtjRP_eokY8?si=NHRJiKKznal_klBh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
-              </div>
-              <div class="text-center">
-                <h4 class="subhead textcolor fw-bold fs-1"> give <br><span class="lead  fs-4"> please use the below link to give tithes and offering</span></h4>
-                <h4 class="subhead textcolor fw-bold fs-4 text-center">thank you</h4>
-                <a href="https://enroll.zellepay.com/qr-codes?data=ewogICJuYW1lIiA6ICJFVEVSTkFMIExJRkUgQ0hVUkNIIElOQy4iLAogICJ0b2tlbiIgOiAiODE3NDM3NDU1OCIsCiAgImFjdGlvbiIgOiAicGF5bWVudCIKfQ==" target="_blank"> <img class="py-3 col-md-2 col-4 col-sm-3 col-lg-2" src="./images/IMG_4378.jpg"width="100%"> </a>
-                </div>
-
-                <div class="head">
-                  <div class="title">
-                    <div class="text-center py-0">
-                      <h1 class="subhead textcolor fw-bold fs-1"> contact us <br></h1>
-                    </div>
-                  <div class="text-center">
-                    <ul class="nav justify-content-center  align-items-inline pb- mb-">
-                      <li class="nav-item" ><a href="https://www.facebook.com/elcfwtx/"target="_blank" class="nav-link px- text-body-secondary"><img  src="./images/facebook.svg"></a> </li>
-                     <li class="nav-item"><a href="https://www.youtube.com/@EternalLifeChurch-kn7me" target="_blank" class="nav-link px- text-body-secondary"> <img  src="./images/youtube.svg" width=""></a></li>
-                      <li class="nav-item"><a href="mailto:elifechurch2014@gmail.com" target="_blank" class="nav-link px- text-body-secondary"><img  src="./images/envelope-fill.svg" width=""></a></li>
-                      <li class="nav-item"><a href="tel:817-437-4558" target="_blank" class="nav-link px- text-body-secondary"><img  src="./images/telephone-fill.svg" width=""></a></li>
-                    </ul>
-                    </div>  
-              
-                <div class="px- head">
-                  <div class="title">
-                    <nav class="px- py-0 navbar navbar-expand-lg">
-                      <div class="container-fluid">
-                        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
+               <section class="section">
+                    <h3 style="text-align: center; color: rgb(208, 78, 43);" class="subhead"> come join us</h3>
                     
-                        <div class=" navbar-collapse justify-content-md-center collapse" id="navbarsExample08">
-                          <ul class="navbar-nav">
-                            <li class="nav-item">
-                              <a class="nav-link navbar-light" aria-current="page" style="color: rgb(33, 33, 114);" href="">Home</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" style="color: rgb(33, 33, 114);" href="/aboutus">About us</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" style="color: rgb(33, 33, 114);" href="/mission"> Mission & Vision</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" style="color: rgb(33, 33, 114);" href="/family"> Family</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" style="color: rgb(33, 33, 114);" href="/songs"> Songs</a>
-                            </li>
-                          </ul>
-                        </div>
+                    <div  class="container px-0 col-11 col-md-11 col-lg-11">
+          <div class="grid">
+                      <div class="card">
+                        <h4 class="subhead textcolor fw-bold fs-8"> sunday service</h4>
+                        <h5 style="color: rgb(208, 78, 43);" class="elc lead subhead textcolor"> 10:00 am- <br>Worship & sermon</h5>
+                        <img src="pics/IMG_4329.JPG" alt="">
                       </div>
-                    </nav>
-                    <div>
-                    <img class="logo py-5 mx-auto mb" src="./images/ELC logo.png" alt="logo" width="40">
-                   </div> 
-                    <div class="text-center">
-                      
-                    <footer class="py-1">
-                        <P> &copy; <script>document.write(new Date().getFullYear())</script> Eternal Life Church</P>
-                      </footer>
+                      <div class="card">
+                        <h4 class="subhead textcolor fw-bold fs-8"> saturday service</h4>
+                        <h5 style="color: rgb(208, 78, 43);" class="elc lead subhead textcolor"> 11:00 am- <br>youth & mother Fellowship</h5>
+                        <img src="pics/IMG_4342.jpg" alt="">
+                      </div>
+                     
+                      <div class="card">
+                        <h4 class="subhead textcolor fw-bold fs-8"> our address</h4>
+                        <a class="address" href="https://www.google.com/maps/dir/32.8748188,-97.3408544/Eternal+Life+Church/@32.7835207,-97.4086218,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x864e711698ac0627:0x71b0139677be51cb!2m2!1d-97.3092708!2d32.692277?entry=ttu" target="_blank">
+                            <h5 style="color: rgb(208, 78, 43);" class="elc lead subhead textcolor fs-8"> 3817 Mc Clure St, <br>Fort Worth, TX 76115</h5></a>
+                        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3357.765643443554!2d-97.31184572419488!3d32.69227697369921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e711698ac0627%3A0x71b0139677be51cb!2sEternal%20Life%20Church!5e0!3m2!1sen!2sus!4v1747978250178!5m2!1sen!2sus" width="100%" height="260" style="border:0;"></iframe>
+                      </div>
                     </div>
-                </div>    
+                  </section>
+                
+                
+              </div>
+              
+                <div class="text-center">
+                  <h4 style="color: rgb(208, 78, 43);" class="subhead"> give <br><span style="color: rgb(33, 33, 114);" class="elc lead p-1"> Please use the link below to give your tithes and offerings.</span></h4>
+                  <h4  style="color: rgb(33, 33, 114);" class="subhead">thank you</h4>
+            
+                  </div>
+                  <section class="donation">
+                    <div class="text-center">
+                        <h4  style="color: rgb(208, 78, 43);" class="subhead">Support Our Church <br><span style="color: rgb(33, 33, 114);" class="elc lead "> Your generosity helps us share faith and support our community.</span></h4>
+                        <h4 class="subhead textcolor">thank you</h4>
+                  
+                        </div>
+                    <!-- ✅ Custom Donate Button using PayPal -->
+                    <div class="donate-button">
+                      <form action="https://www.paypal.com/donate" method="post" target="_blank">
+                        <input type="hidden" name="hosted_button_id" value="F3G3WM3BEAAZN" />
+                        <button type="submit">Donate Now</button>
+                      </form>
+                    </div>
+                  
+                    <!-- 📱 Optional QR Code -->
+                    <div class="qr-code">
+                
+                        <h4 class="subhead textcolor">scan to donate</h4>
+                        <img src="./pics/QR Code.png" alt="PayPal QR Code" />
+                        <h4 style="color: rgb(208, 78, 43);" class="elc lead subhead textcolor fs-7 text-center">scan with your phone's camera </h4>
+                  </section>
+                  <div class="text-center py-5">
+                    <h4 class="subhead textcolor"> stay connected with us on our socials <br></h4>
+                    
+                    
+                  </div>
+                  <div class="iframe_container">
+                    <iframe width="735" height="415" src="https://www.youtube.com/embed/gtjRP_eokY8?si=NHRJiKKznal_klBh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
+                    </div>
+                  <!-- 🌐 Contact Section -->
+                  <div style="letter-spacing: 2px; color: rgb(33, 33, 114); max-width: 700px;
+                  margin: 0px auto;
+                  background: #ffffff;
+                  padding: 10px;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+                  text-align: center;"> 
+                    <div class="title">
+                      <div class="text-center py-0">
+                        <h1 style="color: rgb(208, 78, 43)" class="subhead textcolor">Contact Us</h1>
+                      </div>
+                      <div class="text-center">
+                        <ul class="nav justify-content-center align-items-inline">
+                          <li class="nav-item">
+                            <a href="https://www.facebook.com/elcfwtx/" target="_blank" class="nav-link px text-body-secondary">
+                              <img class="sign"src="./images/facebook.svg" alt="Facebook">
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="https://www.youtube.com/@EternalLifeChurch-kn7me" target="_blank" class="nav-link px text-body-secondary">
+                              <img src="./images/youtube.svg" alt="YouTube">
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="mailto:elifechurch2014@gmail.com" target="_blank" class="nav-link px text-body-secondary">
+                              <img src="./images/envelope-fill.svg" alt="Email">
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="tel:817-437-4558" target="_blank" class="nav-link px text-body-secondary">
+                              <img src="./images/telephone-fill.svg" alt="Phone">
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  
+                
+    <div class="px- head">
+        <div class="ti">
+          <nav class="px- py-0 navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
           
+              <div class=" navbar-collapse justify-content-md-center collapse" id="navbarsExample08">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link navbar-light" aria-current="page" style="color: rgb(33, 33, 114);" href="/index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style="color: rgb(33, 33, 114);" href="/aboutus.html">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style="color: rgb(33, 33, 114);" href="/mission.html"> Mission & Vision</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style="color: rgb(33, 33, 114);" href="/family.html"> Family</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style="color: rgb(33, 33, 114);" href="/songs.html"> Songs</a>
+                  </li>
+                </ul>
+              </div>
+              </div>
+          </nav>
+            
+                    </body>
+                    </html>
+                      <div>
+                      <img class="logo py-0 mx-auto mb" src="./images/ELC logo.png" alt="logo" width="40">
+                     </div> 
+                      <div class="text-center">
+                        
+                     
+                      </div>
+                  </div>    
+            
+         
 </body>
 </html>
+
+
+              
+ 

@@ -2,20 +2,41 @@ html, body {width: auto!important; overflow-x: hidden!important}
 min-height
 
 .nav-item {
-    color: rgb(224, 182, 119);
+    color: rgb(209, 206, 47);
     font-size: larger;
     padding:0px;
     font-family: 'Playfair Display', serif;
+    
+      
+}
+.church{
+    color: rgb(208, 78, 43);
+    font-size:0px;
+    font-weight:bolder;
+    padding: 0px;
 }
 
-
+.para.lead{
+    text-align: left;
+}
+.box para{
+    margin: 0px auto;
+            background: #ffffff;
+            padding: 0px;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+            
+}
+.map{
+    height: 140%;
+}
 .member {
     padding-top: 20px;
 }
-    
+ 
 
 h1 {
-    padding-top: 30px;
+    padding-top: 10px;
 
 }
 
@@ -29,6 +50,14 @@ h1 {
     
     
 }
+.box{
+  max-width: 90%;
+  margin: 0px auto;
+  background: #ffffff;
+  padding: 0px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
 .container {
     height: 100%;
     display: flex;
@@ -36,18 +65,12 @@ h1 {
     align-items: center;
     width: 100%;
 }
-.title   {
-    background-color:#e17945;
-    
-    font-size: xx-large;
-    text-decoration:wavy;
-    color: rgb(33, 33, 114);
-    background-image: url(./assets/);
+
    
-}
+
 body
    {
-    background-color:rgb(228, 178, 178);
+    background-color:rgb(202, 233, 224);
     padding: 0;
     margin:0;
 }
@@ -65,6 +88,17 @@ body
 }
 .subhead    {
     font-family: 'Cinzel', serif;
+    font-weight: bold;
+    font-size: larger;
+  
+    
+    
+}
+.photoslide{
+    padding-top: 20px;
+}
+.join.subhead{
+    font-weight: 100;
     
 }
 .carousel .item {
@@ -108,7 +142,7 @@ body
     width: 100%;
 }
 .para {
-    padding-bottom: 40px;
+    padding-bottom: 0px;
 }
 #search {
     text-align: center;
@@ -160,7 +194,7 @@ body
   }
 
 footer {
-    background-color:#e17945 !important;
+    background-color:#ffffff !important;
     min-height: 1px;
     font-size: xx-small;
     padding-bottom:1px;
@@ -217,11 +251,67 @@ footer {
 
 @media (max-width:320px)  {
 
+    .welcome{
+    letter-spacing: 2px; color: rgb(33, 33, 114); max-width: 275px;
+    margin: 0px auto;
+    background: #ffffff;
+    padding: 1px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    text-align: center;
+    font-size: 48%;
+}
+.elc{
+    font-size:8px;
+}
+.elc.lead{
+    font-size:11px;
+}
+.experience{
+    font-size:6px;
+}
+
+.church{
+    color: rgb(208, 78, 43);
+    font-size: 15px;
+    font-weight:bolder
+}
+.logo{
+    width: 40px;
+}
+.para.lead {
+    font-size:12px;
+
+}
+.subhead{
+    font-size:13px;
+}
+.qr{
+    width:40%;
+    height: 35%;
+}
+img.sign{
+    width:5%;
+
+}
+    
+   
+}
+.join{
+    font-size: 16px;
+}
+.join.img{
+    width: 90%;
+    padding: 5px;
+
+   
+   
+}
     .nav-item {
         color: blue;
         font-size: small;
         font-weight: bold;
-        text-transform: uppercase;
+        
     }
     .flex-container {
         max-width: 100%;
@@ -300,9 +390,45 @@ footer {
 
 
 
-}
+
     
 @media (min-width:320px)  {
+
+    .welcome{
+        letter-spacing: 2px; color: rgb(33, 33, 114); max-width: 350px;
+        margin: 0px auto;
+        background: #ffffff;
+        padding: 10px;
+        border-radius: 12px;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+        text-align: center;
+        font-size: 50%;
+    }
+    .elc{
+        font-size:small;
+    }
+    .experience{
+        font-size:8.5px;
+    }
+    .church{
+        color: rgb(208, 78, 43);
+        font-size: 24px;
+        font-weight:bolder
+    }
+    .logo{
+        width: 55px;
+    }
+    .para.lead {
+        font-size:16px;
+    }
+    .elc.lead{
+        font-size:13px;
+    }
+    .subhead{
+        font-size:15px;
+    }
+
+
         .nav-item {
             color: blue;
             font-size: medium;
@@ -384,6 +510,33 @@ footer {
 }
         
 @media (min-width:481px)  {  
+    .welcome{
+        letter-spacing: 2px; color: rgb(33, 33, 114); max-width: 500px;
+        margin: 0px auto;
+        background: #ffffff;
+        padding: 10px;
+        border-radius: 12px;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+        text-align: center;
+        font-size: 70%;
+    }
+    .elc{
+        font-size:large;
+    }
+    .experience{
+        font-size: 15px;
+    }
+    .church{
+        color: rgb(208, 78, 43);
+        font-size: 35px;
+        font-weight:bolder
+    }
+    .logo{
+        width: 60px;
+    }
+    .para.lead {
+        font-size:17px;
+    }
 
 .nav-item {
         color: blue;
@@ -457,6 +610,41 @@ footer {
 
 
 @media (min-width:641px) {
+    .welcome{
+        letter-spacing: 2px; color: rgb(33, 33, 114); max-width: 600px;
+        margin: 0px auto;
+        background: #ffffff;
+        padding: 10px;
+        border-radius: 12px;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+        text-align: center;
+        font-size: 80%;
+    }
+    .elc{
+        font-size:large;
+    }
+    .experience{
+        font-size: 15px;
+    }
+    .church{
+        color: rgb(208, 78, 43);
+        font-size: 35px;
+        font-weight:bolder
+    }
+    .logo{
+        width: 60px;
+    }
+    .church{
+        color: rgb(208, 78, 43);
+        font-size: 47px;
+        font-weight:bolder
+    }
+    .logo{
+        width: 80px;
+    }
+    .para.lead {
+        font-size:18px;
+    }
     .nav-item {
         color: blue;
         font-size: large;
@@ -527,6 +715,52 @@ footer {
 }
     
 @media (min-width:961px)  {
+    .welcome{
+        letter-spacing: 2px; color: rgb(33, 33, 114); max-width: 700px;
+        margin: 0px auto;
+        background: #ffffff;
+        padding: 10px;
+        border-radius: 12px;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+        text-align: center;
+        font-size: 100%;
+    }
+    .elc{
+        font-size:18px;
+    }
+    .elc.lead{
+        font-size:19px;
+    }
+    .experience{
+        font-size:19px;
+    }
+    
+    .church{
+        color: rgb(208, 78, 43);
+        font-size: 40px;
+        font-weight:bolder
+    }
+    .logo{
+        width: 40px;
+    }
+    .para.lead {
+        font-size:19px;
+    
+    }
+    .subhead{
+        font-size:13px;
+    }
+    .qr{
+        width:40%;
+        height: 35%;
+    }
+    img.sign{
+        width:5%;
+    
+    }
+  .logo{
+        width: 100px;
+    }
     .nav-item {
         color: blue;
         font-size: large;
@@ -600,12 +834,35 @@ footer {
 }
  
 @media (min-width:1025px) { 
+    .logo{
+        width: 100px;
+    }
+    
     .nav-item {
         color: blue;
         font-size:large;
         font-weight: bolder;
         text-transform: uppercase;
         padding:25px;
+    }
+    .elc{
+        font-size:19px;
+    }
+    .elc.lead{
+        font-size:18px;
+    }
+    .experience{
+        font-size:18px;
+    }
+    
+    .logo{
+        width: 55px;
+    }
+    .para.lead {
+        font-size:20px;
+    }
+    .subhead{
+        font-size:22px;
     }
     .flex-container {
         max-width: 100%;
@@ -676,6 +933,28 @@ footer {
        
         padding-right: 50px;
      
+    }
+    .elc{
+        font-size:20px;
+    }
+    .elc.lead{
+        font-size:19px;
+    }
+    .experience{
+        font-size:19px;
+    }
+    
+    .logo{
+        width: 55px;
+    }
+    .para.lead {
+        font-size:20px;
+    }
+    .elc.lead{
+        font-size:20px;
+    }
+    .subhead{
+        font-size:20px;
     }
     .nav {
        padding:10px;
