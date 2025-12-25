@@ -41,7 +41,7 @@ h1 {
 }
 
 .head  {
-    padding-top: px;
+    padding-top: 10px;
     text-align: center;
 
     margin:0;
@@ -1010,5 +1010,21 @@ img.sign{
         
 
     }
+
     
 }
+.christmas-images {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap; /* stacks on mobile */
+}
+
+.christmas-images img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 8px;
+}
+
